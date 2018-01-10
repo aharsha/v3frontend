@@ -16,6 +16,7 @@
     width: 220px;
     height: 310px;
   }
+  
   .circles li {
     cursor: pointer;
     position: relative;
