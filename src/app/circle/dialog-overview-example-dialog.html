@@ -1,0 +1,28 @@
+<div class="mat-dialog">
+   
+
+<div mat-dialog-content>
+  
+<br> 
+  <label>Enter Circle Name </label>
+ 
+  <mat-form-field class="example-normal-width ">
+          <input matInput tabindex="2" #circName>
+        </mat-form-field>
+        <br> 
+  <label>Enter Circle Discription </label>
+  
+        <mat-form-field class="example-normal-width ">
+              <input matInput tabindex="3" #circDiscription>
+            </mat-form-field>
+</div>
+<br>
+<div mat-dialog-actions>
+        <button mat-button (click)="dialogRef.close({circlename: circName.value,circlediscription: circDiscription.value})" tabindex="2">CreateCircle</button>
+  <button mat-button [mat-dialog-close]="" tabindex="-1">Cancel</button>
+  
+</div>
+
+
+
+</div>

@@ -1,0 +1,191 @@
+.selected {
+    background-color: #CFD8DC !important;
+    color: white;
+  }
+  .circles {
+    margin: 0 0 0em 0;
+    list-style-type: none;
+    background-color: rgb(134, 109, 132);
+    
+   
+    overflow: scroll;
+    
+    border: none;
+    padding: 0px;
+  
+    width: 220px;
+    height: 310px;
+  }
+  .circles li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color:  rgb(134, 109, 132);
+    margin: .3em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+    text-decoration-style: solid;
+    text-align: left;
+  }
+  .circles li:hover {
+    color: #607D8B;
+    background-color: #DDD;
+    left: .1em;
+  }
+ 
+  .circles .text {
+    position: relative;
+    top: -3px;
+  }
+ 
+  button {
+    font-family: Arial;
+    background-color: #eee;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    cursor: hand;
+  }
+  button:hover {
+    background-color: #cfd8dc;
+  }
+
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    
+    border: 2px solid #664f4f;
+    background-color: #c9bdbd;
+    border-radius: 5px;
+    
+    padding: 10px;
+    margin: 10px 0;
+    min-width: 1000px;
+    top:0px;
+  }
+  .example-normal-width {
+    float: right;
+    border: 2px solid #64df12;
+    background-color: #e3dfeb;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 10px 0;
+    min-width: 250px;
+  }
+  .vl {
+    border-left: 10px solid rgb(11, 128, 0);
+    height: 630px;
+    position: absolute;
+    left: 20%;
+    margin-left: -3px;
+    top: 8px;
+}
+.container {
+ border-left: 50%;
+  width: 60%;
+ 
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.msg-right {
+  float: right;
+
+  color: rgba(70, 9, 33, 0.904);
+ 
+  height: 30%;
+  width: 80%;
+}
+.msg-left {
+  float: left;
+  color: rgba(70, 9, 33, 0.904);
+  height: 30%;
+  width: 20%;
+}
+span {
+  content: "\002B";
+}
+
+div.relative {
+    position: relative;
+    left: 200px;
+    border: 3px solid rgb(173, 33, 75);
+}
+.mat-dialog {
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    width: 20%;
+    height: 40%;
+    border: 3px solid rgb(173, 33, 75);
+  }
+  
+ 
+  .myBoxCircle {
+    position: relative;
+    
+
+    top: 0;
+    border: none;
+    padding: 5px;
+    font: 22px/28px sans-serif;
+    width: 250px;
+    height: 250px;
+    background: rgb(205, 50, 115); 
+    overflow: scroll;
+   
+    }
+
+    .button {
+      position: absolute;
+      top:30px;
+      right: 40px;
+     
+    
+    }
+    .overlay {
+      position: absolute;
+     
+     
+      
+      visibility: hidden;
+     
+    }
+
+    .overlay:target {
+      position: absolute;
+      visibility: visible;
+    
+      left: 1350px;
+      top:50px;
+     
+    }
+
+    .popup {
+      position: absolute;
+      overflow: scroll;
+      right: 10px;
+      width: 140px;
+      height: 350px;
+      
+    }
+
+    .popup .close {
+      position: absolute;
+     
+      left: 10px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+    }

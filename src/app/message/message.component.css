@@ -1,0 +1,90 @@
+
+ 
+.container {
+  position: absolute;
+  left: 10px;
+  font-size: 13px;
+  
+ 
+  
+  
+  
+}
+.time
+{
+  position: absolute;
+  font-size: 10px;
+  left: 80px;
+  font-style: italic;
+}
+.msg-right {
+  
+
+  color: rgba(12, 12, 12, 0.842);
+ 
+  height: 20%;
+  width: 90%;
+}
+.message {
+ position: absolute;
+ font-size: 15px;
+ left: 10px;
+  color: rgba(70, 9, 33, 0.904);
+ 
+}
+span {
+  content: "\002B";
+}
+
+div.relative {
+    position: relative;
+    left: 200px;
+    border: 3px solid rgb(173, 33, 75);
+}
+.mat-dialog {
+    position: absolute;
+    left: 500px;
+    top: 70px;
+    width: 20%;
+    height: 40%;
+    border: 3px solid rgb(173, 33, 75);
+  }
+  
+  md-dialog {
+    max-width: 90%;
+    max-height: 90%;
+  }
+
+  .myBox {
+    position: absolute;
+    left: 240px;
+    top:60px;
+
+   
+  
+    padding: 5px;
+    font: 22px/28px sans-serif;
+    width: 890px;
+    height: 515px;
+    background-color:#ffffff; 
+    border: 1px solid rgb(163, 33, 102);
+    overflow: scroll;
+   
+    }
+    
+    /* Scrollbar styles */
+    ::-webkit-scrollbar {
+    width: 5px;
+    height: 12px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px olivedrab;
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: yellowgreen; 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    }

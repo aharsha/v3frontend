@@ -1,0 +1,21 @@
+
+
+<div class="myBox">
+    
+    <div  *ngFor="let ms of userMsg">
+        <div class="message"> {{ms.senderId.split('@')[0]}}</div> <div class="time"><strong>{{ms.messageTime | date:'medium'}}</strong> </div> 
+ <br>
+    <div     class="container" >    
+        
+        
+        {{ms.messageContent}} 
+        <br>
+       </div>
+       <br><br>
+       </div>
+       </div>
+       
+       <app-circl (circleId)="circId" (messageEvent1)=" getMessagesOfCircleWithEvent($event)"  (messageEvent2)="getCircID($event)"> </app-circl>
+       <my-users (messageEvent)=" getMessagesOfUserWithEvent($event)" (sendingMsg)="sendMsg($event)" >  </my-users>
+        
+ 

@@ -1,0 +1,42 @@
+<div>
+
+<ul class="users">
+<h4 > <strong> User Messages   &emsp;  
+    
+    <button >+</button> </strong> </h4> 
+<li *ngFor="let user of userObj"
+
+
+(click)="onSelect(user)">
+&emsp;<strong> {{user.username}} </strong> 
+</li>
+
+
+</ul>
+
+
+ </div>
+
+     
+    
+   
+  
+    
+
+
+
+
+
+<div  class="textbox-pos">
+  
+    
+    
+        <mat-form-field class="example-full-width">
+           <input  matInput #message maxlength="256"  width="200" #box (keyup.enter)="sendMessage(box.value) ;   box.value='';"    />
+          
+        </mat-form-field>
+       
+       
+      
+      </div>
+     

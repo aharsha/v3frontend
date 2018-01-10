@@ -1,0 +1,26 @@
+
+<ul class="circles">
+<h4 > <strong> Circles  &emsp; &emsp; &emsp; <button  (click)="openDialog()">
+  +
+ </button> </strong></h4> 
+
+ <li *ngFor="let circ of circle"
+ 
+  
+   (click)="electOfCircle(circ.circleid,circ.circlename)">
+   &emsp; <strong>{{circ.circlename}} </strong> 
+ 
+ </li>
+ </ul>
+
+ <a class="button" href="#channelInfo" > ViewChannelDetails </a>
+
+ <div id="channelInfo" class="overlay">
+    <div class="popup">
+        <h2>Here i am</h2>
+        
+      	<a class="close" href="#">&times;</a>
+          Thank to pop me out of that button, but now i'm done so you can close this window.
+        
+   </div>
+   </div>
